@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       colors : {
-        customBlue : '#42A9ED'
+        lightBlue : '#42A9ED',
+        darkBlue : '#10101D'
       }
     },
     backgroundImage : {
