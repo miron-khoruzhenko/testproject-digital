@@ -1,10 +1,15 @@
 import Home from "./components/pages/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import NotFoundPage from "./components/pages/NotFoundPage"
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

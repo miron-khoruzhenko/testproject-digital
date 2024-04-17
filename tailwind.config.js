@@ -13,7 +13,8 @@ export default {
       }
     },
     backgroundImage : {
-      'hero-bg' : "url('/src/assets/hero-bg.jpg')"
+      'hero-bg' : "url('/src/assets/hero-bg.jpg')",
+      'order-bg' : "url('/src/assets/order-bg.jpg')",
     }
   },
   plugins: [],

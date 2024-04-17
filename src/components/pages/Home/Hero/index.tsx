@@ -18,7 +18,7 @@ const Hero = () => {
 	}
 
 	return (
-		<div className='w-screen h-screen bg-white bg-hero-bg bg-center bg-no-repeat bg-cover'>
+		<section className='w-screen h-screen bg-white bg-hero-bg bg-center bg-no-repeat bg-cover'>
 			<div className={styles.heroContent}>
 				<h1 className={styles.heroTitle}>
 					<span className={styles.titleSpan}>Lorem ipsum</span> dolor sit <br />
@@ -42,7 +42,7 @@ const Hero = () => {
 						<button className={styles.heroButton + styles.btnSecondary}>Подробнее</button>
 					</div>
 			</div>
-		</div>
+		</sec>
 	)
 }
 
