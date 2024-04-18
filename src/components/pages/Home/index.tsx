@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import Navbar from '../../common/Navbar'
 import Order from './OrderSection'
+import Footer from './Footer'
 
 const Home = () => {
 	return (
@@ -9,6 +10,7 @@ const Home = () => {
 			<Navbar />
 			<Hero />
 			<Order />
+			<Footer />
 		</div>
 	)
 }

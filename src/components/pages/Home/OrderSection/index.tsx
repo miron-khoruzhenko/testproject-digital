@@ -1,6 +1,5 @@
 import ServicesContainer from './ServicesContainer'
-
-
+import ControlSection from './ControlSection'
 
 
 const Order = () => {
@@ -21,11 +20,15 @@ const Order = () => {
 			<div className={styles.contentContainer}>
 				
 				<div className={styles.titleContainer}>
-					<h2 className={styles.title}>Оформление <span className={styles.titleSpan}>Заказа</span></h2>
+					<h2 className={styles.title}>
+						Оформление <span className={styles.titleSpan}>Заказа</span>
+					</h2>
 					<p className={styles.titleSubheading}>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
 				</div>
 
 				<ServicesContainer />
+
+				<ControlSection />
 
 			</div>
 		</section>

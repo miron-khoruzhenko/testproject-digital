@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
 	const styles = {
-		hero: 'w-screen h-screen bg-white bg-hero-bg bg-center bg-no-repeat bg-cover ',
+		hero: 'w-screen h-screen bg-white bg-hero-bg bg-center bg-no-repeat bg-cover overflow-hidden ',
 		heroContent: 'container mx-auto flex flex-col gap-20 justify-center h-full pt-24',
 		heroTitle: 'font-bold uppercase text-5xl text-black',
 		titleSpan: 'text-manBlue500 ',

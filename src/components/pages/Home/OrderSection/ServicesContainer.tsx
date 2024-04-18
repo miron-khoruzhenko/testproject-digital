@@ -4,7 +4,7 @@ const ServicesContainer = () => {
 	const styles = {
 		servicesContainer: 'flex justify-around items-center px-8 mt-20 ',
 		serviceDescrContainer : 'flex justify-between items-center pt-5',
-		serviceDescr: 'text-center text-white w-[190px]',
+		serviceDescr: 'text-center text-white w-[190px] text-base ',
 		smallBall: 'h-[5px] w-[5px] bg-zinc-100 rounded-full ',
 	}
 
