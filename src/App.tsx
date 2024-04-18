@@ -4,7 +4,7 @@ import NotFoundPage from "./components/pages/NotFoundPage"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/miron.github.io">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFoundPage />} />

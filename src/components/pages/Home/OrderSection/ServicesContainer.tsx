@@ -2,8 +2,9 @@ import serviceDB from './servicesDB'
 
 const ServicesContainer = () => {
 	const styles = {
-		servicesContainer: 'flex justify-around items-center px-8 mt-20 ',
-		serviceDescrContainer : 'flex justify-between items-center pt-5',
+		servicesContainer : 'flex flex-row md:flex-col mt-16 md:mt-0 ',
+		servicesBallContainer: 'flex flex-col md:flex-row justify-around items-center px-8 md:mt-20 ',
+		serviceDescrContainer : 'grid grid-rows-5  md:flex flex-col md:flex-row justify-between items-center md:pt-5',
 		serviceDescr: 'text-center text-white w-[190px] text-base ',
 		smallBall: 'h-[5px] w-[5px] bg-zinc-100 rounded-full ',
 	}
@@ -16,8 +17,8 @@ const ServicesContainer = () => {
 	}
 
 	return(
-		<>
-			<div className={styles.servicesContainer}>
+		<div className={styles.servicesContainer}>
+			<div className={styles.servicesBallContainer}>
 			{serviceDB.map((service, index) => {
 					if (index === 0)
 						return <Service key={service.index + '_service'} service={service} />
@@ -38,7 +39,7 @@ const ServicesContainer = () => {
 				)})
 			}
 		</div>
-	</>
+	</div>
 	)
 }
 

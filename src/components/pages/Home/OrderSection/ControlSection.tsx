@@ -9,11 +9,11 @@ const ControlSection = () => {
 	}
 
 	const styles = {
-		controlSection : "flex flex-col gap-14 mt-20 pb-[150px]  ",
-		inputContainer :"grid gap-[30px] grid-cols-3 overflow-visible ",
+		controlSection : "px-3 md:px-0 flex flex-col gap-14 mt-20 pb-16 md:pb-[150px]  ",
+		inputContainer :"grid gap-[30px] grid-cols-1 md:grid-cols-3 overflow-visible ",
 		input : 'px-3 py-2 bg-zinc-200 w-full rounded text-zinc-800 placeholder-zinc-800 cursor-pointer ',
 
-		sliderLabel: "col-span-2 w-full block",
+		sliderLabel: "md:col-span-2 w-full block",
 		sliderText: 'flex justify-between text-white text-lg ',
 
 		attachBtn : "bg-white w-full px-3 py-2 rounded flex items-center justify-center gap-2 cursor-pointer",

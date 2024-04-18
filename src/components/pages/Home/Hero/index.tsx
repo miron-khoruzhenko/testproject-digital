@@ -1,16 +1,14 @@
-import React from 'react'
-
 const Hero = () => {
 	const styles = {
 		hero: 'w-screen h-screen bg-white bg-hero-bg bg-center bg-no-repeat bg-cover overflow-hidden ',
-		heroContent: 'container mx-auto flex flex-col gap-20 justify-center h-full pt-24',
-		heroTitle: 'font-bold uppercase text-5xl text-black',
+		heroContent: 'container mx-auto flex flex-col gap-20 justify-center h-full pt-12 md:pt-16 px-2 lg:px-0 2xl:pt-24 ',
+		heroTitle: 'font-bold uppercase text-center text-4xl md:text-5xl text-black',
 		titleSpan: 'text-manBlue500 ',
 		heroTextBlock: '',
-		heroListTitle: 'font-bold text-xl mb-2',
-		heroList: 'relative pl-4 text-xl',
+		heroListTitle: 'font-bold text-md md:text-lg lg:text-xl mb-2',
+		heroList: 'relative pl-4 text-md md:text-lg lg:text-xl',
 		heroListItem: 'list-["-"] pl-3 ',
-		heroBtnContainer: 'flex gap-7',
+		heroBtnContainer: 'flex justify-center md:justify-start gap-3 lg:gap-7',
 		heroButton: 'py-2 px-[60px] rounded border text-sm ',
 		btnPrimary: 'bg-manBlue500 text-white border-white ',
 		btnSecondary: 'bg-white text-zinc-800 border-zinc-400 '
