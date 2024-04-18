@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 	const styles = {
-		nav: 'bg-darkBlue/90 absolute top-0 left-0 w-full ',
+		nav: 'bg-manBlue900/90 absolute top-0 left-0 w-full ',
 		navContainer: 'container mx-auto flex justify-between items-center h-24 w-full ',
 		logo: 'uppercase text-white font-extrabold text-2xl cursor-pointer ',
-		logoSpan: 'text-lightBlue ',
+		logoSpan: 'text-manBlue500 ',
 		navList: 'flex gap-14 ',
-		navListItem: 'uppercase  text-sm font-semibold hover:text-lightBlue transition-colors duration-300 ease-in-out cursor-pointer '
+		navListItem: 'uppercase  text-sm font-semibold hover:text-manBlue500 transition-colors duration-300 ease-in-out cursor-pointer '
 	}
 
 	const links = [
@@ -54,7 +54,7 @@ const Navbar = () => {
 						
 						<li 
 							key={link.id} 
-							className={styles.navListItem + (link.isActive ? 'text-lightBlue ' : 'text-white ') }
+							className={styles.navListItem + (link.isActive ? 'text-manBlue500 ' : 'text-white ') }
 						>
 							<Link to={link.path}>{link.title}</Link>
 						</li>

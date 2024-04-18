@@ -8,13 +8,16 @@ export default {
   theme: {
     extend: {
       colors : {
-        lightBlue : '#42A9ED',
-        darkBlue : '#10101D'
+        manBlue500 : '#42A9ED',
+        manBlue600 : '#286690',
+        manBlue700 : '#3D4050',
+        manBlue800 : '#272733',
+        manBlue900 : '#10101D',
       }
     },
     backgroundImage : {
       'hero-bg' : "url('/src/assets/hero-bg.jpg')",
-      'order-bg' : "url('/src/assets/order-bg.jpg')",
+      'order-bg' : "url('/src/assets/order-bg.png')",
     }
   },
   plugins: [],
